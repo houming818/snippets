@@ -10,8 +10,7 @@ import (
 	"github.com/gin-contrib/pprof"
 	"github.com/gin-gonic/gin"
 	"lovelake.cn/app/pkg/web/iptool"
-	"lovelake.cn/texiusi/pkg/config"
-	"lovelake.cn/texiusi/pkg/web/render"
+	"lovelake.cn/app/pkg/web/render"
 )
 
 // Run 新建HTTP服务
