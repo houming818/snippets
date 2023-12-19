@@ -1,0 +1,14 @@
+http:
+  host: 0.0.0.0:5000
+  debug: true
+  prefix: /
+
+cache:
+  backend: gocache
+  expire: 300
+  cleanup: 3600
+
+log:
+  disable_color: true
+  filename: ./app.log
+  level: info
